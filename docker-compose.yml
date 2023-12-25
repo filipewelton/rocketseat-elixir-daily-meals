@@ -1,0 +1,12 @@
+version: "3.1"
+
+services:
+  database:
+    container_name: daily-meals-database
+    image: postgres
+    ports:
+      - 5432:5432
+    environment:
+      - POSTGRES_USER=phoenix
+      - POSTGRES_PASSWORD=phoenix
+      - POSTGRES_DB=app

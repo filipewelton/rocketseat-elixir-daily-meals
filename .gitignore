@@ -1,0 +1,14 @@
+/_build/
+/cover/
+/deps/
+/doc/
+/.fetch
+/tmp/
+/priv/static/assets/
+/priv/static/cache_manifest.json
+/assets/node_modules/
+
+erl_crash.dump
+*.ez
+daily_meals-*.tar
+

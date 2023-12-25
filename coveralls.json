@@ -1,0 +1,8 @@
+{
+  "skip_files": [
+    "lib/daily_meals/application.ex",
+    "lib/daily_meals_web/telemetry.ex",
+    "lib/daily_meals_web/templates",
+    "test/support"
+  ]
+}
